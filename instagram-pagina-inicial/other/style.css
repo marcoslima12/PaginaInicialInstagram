@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.perfil{
+    border-radius:  50%;
+    height: 50%;
+    width: 40%;
+}
+
+body{
+    width: 100%;
+    min-height: 100%;
+    background-color: rgb(243, 243, 243);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+.instagram-wrapper{
+    display: flex; /*alinhas os itens em linha*/
+    align-items: center; /*alinhamento vertical*/
+    justify-content: start; /*alinhamento horizontal*/
+    width: 60%;
+    height: 100vh;
+}
+
+.instagram-celular{
+    display:  flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.celular-img{
+    height: 50rem;
+}
+
+.box{
+    display: flex;
+    align-items: center; /*horizontal*/
+    justify-content: space-between; /*vertical*/
+    flex-direction: column;
+    display: free;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 2rem 0;
+    border: 1px solid lightgray;
+}
+
+.cur-login{
+    display: flex;
+    box-sizing: border-box;
+    color: white;
+    font-weight: 600;
+    background: #3f729b;
+    padding: 5px 9px;
+    border-radius: 5%;
+}
+
+.change{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 5%;
+}
+
+
